@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+	.top-stip-desktop,.top-navmenu-desktop
+	{
+		display: none;
+	}
+	.top-stip-mobile
+	{
+		display: block;
+		height: 40px;
+  line-height: 40px;
+	}
+	.top-navmenu-mobile
+	{
+		display: block;
+	}
+	.slider-text h3
+	{
+		font-size: 35px;
+	}
+  
+}
+@media (min-width: 768px) and (max-width: 1030px){
+
+  #phoneid
+  {
+  	display: none!important;
+  }
+}

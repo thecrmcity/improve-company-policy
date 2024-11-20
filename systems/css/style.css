@@ -1,0 +1,337 @@
+.top-strip-list .textnav
+{
+  display: inline-block;
+  color: #a3a3a3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.top-strip-list
+{
+  list-style: none;
+}
+.top-stip-desktop
+{
+  height: 40px;
+  line-height: 40px;
+}
+.infor
+{
+  color: #a3a3a3;
+  float: right;
+}
+.top-navmenu
+{
+  box-shadow: 0px 0px 10px #9d9d9d;
+}
+.mynewbg
+{
+  background: #053a6a;
+}
+.customimg
+{
+  width: 100%;
+  height: 600px;
+}
+.slider
+{
+  background-image: url('../img/cyber.gif');
+  position: fixed;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+  width: 100%;
+  overflow-y: auto;
+  display: block;
+
+
+}
+.top-stip-mobile,.top-navmenu-mobile
+{
+  display: none;
+}
+
+.overlay
+{
+  background-color: #053a6a73;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-bottom: 10%;
+  width: 100%;
+  overflow-y: auto;
+  display: block;
+    height: 100%;
+}
+.slider-text
+{
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+.slider-text h3
+{
+  font-size: 60px;
+  font-weight: 300;
+}
+.slider-text em
+{
+  color: #96a1ab;
+}
+footer
+{
+  height: auto;
+  background: #020d18;
+  padding: 10px 0px 1px 0px;
+  text-align: center;
+  color: #626262;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+
+}
+.navbar-dark .navbar-nav .nav-link
+{
+  background: #607d8b;
+    margin-left: 3px;
+}
+.isms-login
+{
+  background-image: url('../img/cyber.gif');
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+}
+.isms-version
+{
+  padding: 15px 0px;
+    color: #a4b9bf;
+    font-size: 18px;
+   
+    letter-spacing: .5px;
+    font-family: monospace;
+
+}
+.login-set
+{
+   background: #000408ab;
+    padding: 60px 80px 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000073;
+    color: #a4b9bf;
+    margin-top: 20%;
+}
+.inputcolor
+{
+  background: transparent!important;
+  border-radius: 0px!important;
+  border-top: none!important;
+  border-right: none!important;
+  outline: none!important;
+  color: #fff !important;
+}
+.inputcolor:focus
+{
+  border-color:transparent!important;
+  box-shadow: none!important;
+  border-bottom: 1px solid #e9ecef!important;
+}
+.login-img
+{
+  color: #a2bdd6;
+  padding-right: 40px;
+  padding-top: 15%;
+}
+.login-img span
+{
+  font-weight: 900;
+  color: orange;
+}
+.login-img h2
+{
+  font-size: 50px;
+}
+.btnback
+{
+  background: #607d8b;
+    color: #a5aeb3;
+    border: 1px solid #a5aeb3;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-size: 14px;
+    transition: .5s;
+}
+.btnback:hover
+{
+  background: #a5aeb3;
+  color: #607d8b;
+  text-decoration: none;
+}
+.dropdown-item
+{
+  color: #b0bec3!important;
+  background-color: #607d8b!important;
+  margin-bottom: 3px;
+}
+.dropdown-item:hover
+{
+  color: #607d8b!important;
+  background-color: #b0bec3!important;
+}
+.dropdown-menu
+{
+  background-color: #053a6a!important;
+}
+.dis-icon
+{
+  background-color: #4a4a4a;
+  width: 40px;
+  height: 40px;
+  border-radius: 25%;
+}
+.datasheet td
+{
+  font-weight: 400!important;
+}
+.datasheet td,.datasheet th
+{
+  font-size: 14px;
+}
+.datatable
+{
+  height: 480px;
+}
+.table-bordered > thead > tr > th
+{
+  font-size: 14px!important;
+}
+.table-bordered > tbody > tr > td
+{
+  font-weight: 400!important;
+    font-size: 12px!important;
+}
+.quickform
+{
+  background-color: #212332b8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 999;
+}
+.infernalset
+{
+    background-color: #fff;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.dis-file-menu {
+    list-style: none;
+    margin-left: -40px;
+}
+.dis-file-menu li a {
+   
+    background: linear-gradient(90deg, #3c8dbc 0%, rgba(0,212,255,0) 70%);
+    border-left: 2px solid #101118;
+    display: block;
+    margin: 4px 0px;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 12px;
+    color: #0c0c0c;
+    padding: 2px 4px;
+    transition: .5s;
+}
+.dis-menu {
+   background-color: #c6e2f3;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #100f0f3b;
+    overflow-y: auto;
+    height: 450px;
+    margin-top: 5px;
+    border: 1px solid #7babc778;
+}
+.dis-file-menu li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.mactable
+{
+  height: 450px;
+}
+.change-pass
+{
+  background: #b7e6f1;
+}
+.add-sheet
+{
+  background: #f7d59f;
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid #cfb07f;
+    border-radius: 10px;
+/*    box-shadow: 0px 0px 10px #bfbfbf;*/
+}
+.custometh th {
+    color: #707e7e;
+    font-family: Courier New;
+    font-size: 12px;
+}
+.inputap
+{
+        width: 100%;
+    /* background: #cecece; */
+    border: 1px solid #b3b2b2;
+    color: #020202;
+    border-radius: 2px;
+}
+.sbsave
+{
+   background-image: linear-gradient(to right, #e43f3f 0%, #b1b175 51%, #003973 100%);
+    border: none;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    padding: 6px 0px;
+}
+.sbsave:hover
+{
+  background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.dis-file-icon {
+    list-style: none;
+    margin-left: -40px;
+}
+.dis-file-icon li a {
+    
+    display: block;
+    margin: 4px 0px;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 12px;
+    color: #0c0c0c;
+    padding: 2px 4px;
+    transition: .5s;
+    
+}
+.mytet
+{
+  border-bottom: 1px solid #084087
+}
